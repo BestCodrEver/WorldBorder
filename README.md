@@ -1,6 +1,6 @@
 # TODO:
-- Remove Border Spam || Add knockback option
 - Teleport to default levels spawn option when border crossing || True/False Config
+- Add Item to Cross Border
 
 # WorldBorder Info-
 Prevent players from passing a certain point in your server worlds!<br>
