@@ -1,5 +1,5 @@
 name: WorldBorder
-main: Soulz\WorldBorder\WorldBorder 
+main: Soulz\WorldBorder\Loader 
 version: 1.0.0
 api: 3.0.0
 author: Soulz
