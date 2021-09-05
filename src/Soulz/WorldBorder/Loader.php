@@ -39,7 +39,7 @@ class Loader extends PluginBase implements Listener {
 
             if($v2->distance($v1) > $dat[$level->getName()]){
                 if(!isset($this->walkCooldown[$player->getName()]) or $this->walkCooldown[$player->getName()] > 3){
-			              $player->sendMessage(Utils::RED_PREFIX . TextFormat::GRAY . $this->getConfig()->getNested("border.border-message"));
+			              $player->sendMessage(Utils::RED_PREFIX . TextFormat::GRAY . $this->getConfig()->getNested("border")["border-message"]);
 			              $player->setMotion($event->getFrom()->subtract($player->getLocation())->normalize()->multiply(2));					
 			              $this->walkCooldown[$player->getName()] = 0;
 		            } else {
